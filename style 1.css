@@ -1,0 +1,72 @@
+body {
+    background-image: url(/images/pattern.png);
+}
+
+h1 {
+    color: #bb8fce;
+}
+
+.img1 {
+    width: 600px;
+    height: 300px;
+}
+
+.img2 {
+    width: 500px;
+    height: 300px;
+}
+
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1500px;
+    height: 60px;
+}
+
+.class0 {
+    order: 0;
+    width: 1500px;
+    height: 50px;
+    background-color: #bb8fce;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    width: 1500px;
+    height: 1150px ;
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+.class1 {
+    width: 330px;
+    height: 800px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.class2 {
+    width: 1130px;
+    height: 800px;
+    margin-right: 20px;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
+    width: 1500px;
+    height: 150px;
+    font-family: Arial;
+}
+
+.class3 {
+    width: 1480px;
+    height: 150px;
+    align-self: flex-end;
+    margin-left: 20px;
+}
